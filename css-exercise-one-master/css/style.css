@@ -1,0 +1,60 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body
+  font-size: 14px;
+}
+
+nav {
+  background color: yellow;
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+
+
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+h1 {
+  font-family sans-serif;
+  font-size: 2em;
+}
+/* this is the exmaple */
+.example, h3 {
+  padding-top: 30px;
+  text-align center
+}
+/* this is header 3*/
+h3 {
+  font-size: 1.3em;
+}
+/* this is the element*/
+.element {
+  background-color: green;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
